@@ -27,6 +27,9 @@ const postTemplate = ({ data }) => {
         <div className={styles.content}>
           <MDXRenderer>{body}</MDXRenderer>
         </div>
+        <Link to="/" className={styles.link}>
+          back to all posts
+        </Link>
       </section>
     </Layout>
   )

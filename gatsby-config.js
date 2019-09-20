@@ -5,7 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -16,6 +15,19 @@ module.exports = {
         path: `src/posts`,
       },
     },
-    `gatsby-plugin-mdx`,
+    // {
+    //   resolve: `gatsby-transformer-remark`,
+    //   options: {
+    //     plugins: [`gatsby-remark-images`],
+    //   },
+    // },
+    //
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        gatsbyRemarkPlugins: [`gatsby-remark-images`],
+        plugins: [`gatsby-remark-images`],
+      },
+    },
   ],
 }
