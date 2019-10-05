@@ -1,4 +1,19 @@
+<h1 align="center">
+  Blog site example based on John Smilga's course Gatsby Tutorial and Projects
+</h1>
+
+[Link to finished project](https://gatsby-course-blog-site.netlify.com/)
+
+This repository uses:
+
+* Gatsby
+* React
+* GraphQL
+* Using a special version of markdown MDX to generate blog posts
+* A automatic deploy to Netlify can be used
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
